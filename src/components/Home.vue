@@ -1,5 +1,5 @@
 <template lang='pug'>
-  #ejm
+  .ejm
     h1.title  Feliz Día :)
     .corazon 
       .corazon-texto
@@ -9,7 +9,6 @@
 
 <script>
 export default {
-  name: 'ejm',
 
   data () {
     return{
@@ -21,7 +20,7 @@ export default {
   
 <style lang='scss'>
 
-  #ejm{
+  .ejm{
     display: flex;
     flex-direction: column;
     justify-content: center;
