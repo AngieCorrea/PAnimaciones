@@ -72,15 +72,15 @@ export default {
 
           
       & h2{
-        // z-index: 100000;
-        padding-top: .5em;
-        font-size: 3em;
+      
+        padding-top: .8em;
+        font-size: 2.5em;
         animation: texto 2s infinite alternate ease-in-out;
 
         @keyframes texto {
           to{
             transform: rotate(360deg);
-            color: yellow;
+            // color: yellow;
           }
         }
       }
