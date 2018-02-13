@@ -3,7 +3,7 @@
     h1.title  Feliz Día :)
     .corazon 
       .corazon-texto
-        h2 Te quiero
+        h2 Te quiero mucho
 
 </template>
 
@@ -73,7 +73,7 @@ export default {
           
       & h2{
       
-        padding-top: .8em;
+        padding-top: .5em;
         font-size: 2.5em;
         animation: texto 2s infinite alternate ease-in-out;
 
